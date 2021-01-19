@@ -9,3 +9,9 @@ ng new example-calculator
 (1st question for strict Yes)
 (2nd question for routing No)
 (3rd question for CSS, CSS)
+
+# Step 4.
+cd example-calculator
+
+# Step 5.
+ng serve
