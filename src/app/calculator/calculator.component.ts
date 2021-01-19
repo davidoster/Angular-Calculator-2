@@ -14,5 +14,9 @@ export class CalculatorComponent implements OnInit {
   ngOnInit() {
     console.log(this.title);
   }
+
+  type(value) {
+    this.finalValue = value;
+  }
   
 }
