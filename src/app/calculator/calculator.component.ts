@@ -5,10 +5,12 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './calculator.component.html',
   styleUrls: ['./calculator.component.css']
 })
+
 export class CalculatorComponent implements OnInit {
-  @Input() title: string = "Angular Calculator!!!";
-  @Input("ref") count: number = 20;
-  finalValue: number = 1000;
+  title: string = "Angular Calculator!!!";
+  count: number = 20;
+  finalValue: number = 0;
+
   constructor() { }
 
   ngOnInit() {
